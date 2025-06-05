@@ -18,7 +18,7 @@ Our results demonstrate that FinBERT delivers the highest accuracy and is most s
 
 The project requires precise environment configurations to ensure compatibility across ML libraries, especially when working with TensorFlow, Huggingface Transformers, and SpaCy pipelines.
 
-> ⚡ **NOTE:** We recommend installing dependencies inside a Miniforge-managed environment with **Python 3.11** and **NumPy version 1.25.2**.
+> **NOTE:** We recommend installing dependencies inside a Miniforge-managed environment with **Python 3.11** and **NumPy version 1.25.2**.
 
 To avoid versioning issues, use this command:
 

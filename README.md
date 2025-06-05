@@ -1,6 +1,6 @@
 # Financial Sentiment Analysis of Executive Letters
 
-## ✨ Overview
+## Overview
 
 This project applies various machine learning approaches to perform sentiment analysis on executive letters extracted from Danish annual financial reports. We benchmarked classical ML models against modern transformer-based architectures, with a special focus on FinBERT due to its domain specificity in financial text.
 
@@ -14,7 +14,7 @@ Our results demonstrate that FinBERT delivers the highest accuracy and is most s
 
 ---
 
-## 🚀 Importance of Environment
+## Importance of Environment
 
 The project requires precise environment configurations to ensure compatibility across ML libraries, especially when working with TensorFlow, Huggingface Transformers, and SpaCy pipelines.
 
@@ -26,7 +26,7 @@ To avoid versioning issues, use this command:
 conda create -n nlp_env python=3.11 numpy=1.25.2
 ```
 
-> ⚠️ **Important:** Even with this environment setup, it is not guaranteed that all scripts or dependencies will function identically across all systems. Due to evolving package ecosystems and backend changes in deep learning frameworks, some files might not run as expected.
+> **Important:** Even with this environment setup, it is not guaranteed that all scripts or dependencies will function identically across all systems. Due to evolving package ecosystems and backend changes in deep learning frameworks, some files might not run as expected.
 >
 > Users should be aware that they may need to **upgrade to Python versions above 3.11** and transition to **NumPy version 2.x** if compatibility issues arise. This is especially relevant for the latest versions of libraries such as Transformers, TensorFlow, or Optuna, which increasingly drop support for older Python and NumPy versions.
 
@@ -34,7 +34,7 @@ Be prepared to adapt your environment iteratively to resolve version conflicts o
 
 ---
 
-## ⚙️ Technical Workflow
+## Technical Workflow
 
 1. **Text Preprocessing:**
 
@@ -65,7 +65,7 @@ Be prepared to adapt your environment iteratively to resolve version conflicts o
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── Dataset/               # Cleaned FPB, FiQA, and Annual Reports
@@ -76,7 +76,7 @@ Be prepared to adapt your environment iteratively to resolve version conflicts o
 
 ---
 
-## 🔧 Library Requirements
+## Library Requirements
 
 Full list of critical packages installed in the environment (`nlp_env`):
 
@@ -113,7 +113,7 @@ Or manually recreate from frozen conda list.
 
 ---
 
-## 📄 Citation
+## Citation
 
 If you use this project, please cite:
 

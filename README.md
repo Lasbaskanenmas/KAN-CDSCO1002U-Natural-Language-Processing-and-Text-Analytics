@@ -26,6 +26,12 @@ To avoid versioning issues, use this command:
 conda create -n nlp_env python=3.11 numpy=1.25.2
 ```
 
+> ⚠️ **Important:** Even with this environment setup, it is not guaranteed that all scripts or dependencies will function identically across all systems. Due to evolving package ecosystems and backend changes in deep learning frameworks, some files might not run as expected.
+>
+> Users should be aware that they may need to **upgrade to Python versions above 3.11** and transition to **NumPy version 2.x** if compatibility issues arise. This is especially relevant for the latest versions of libraries such as Transformers, TensorFlow, or Optuna, which increasingly drop support for older Python and NumPy versions.
+
+Be prepared to adapt your environment iteratively to resolve version conflicts or deprecation warnings when replicating or extending this project.
+
 ---
 
 ## ⚙️ Technical Workflow
@@ -117,5 +123,5 @@ Aydas, A., Strandbygaard, L., Rettedal, M. (2025). Machine Learning Approaches f
 
 ---
 
-Made with ❤ by Aydas, Strandbygaard & Rettedal
+Made by Aydas, Strandbygaard & Rettedal
 
